@@ -23,4 +23,4 @@ gnews              # Tool 4: Google News Search
 pymupdf            # The best PDF text extraction library
 chromadb           # The in-memory vector store
 langchain-community # For text splitters & vector store loaders
-
+langchain-text-splitters # For text splitters & vector store loaders

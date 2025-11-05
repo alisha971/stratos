@@ -1,0 +1,22 @@
+agents:
+  ResearchAgent:
+    allowed_tools: 
+      - "tavily_search"
+      - "arxiv_search"
+      - "gnews"
+      - "read_webpage"
+    cost_budget_usd: 1.00 # We can implement logic for this later
+
+  UserDeepDive:
+    allowed_tools:
+      - "pdf_rag_query"
+    cost_budget_usd: 0.25
+
+  # These agents exist but have no tool permissions.
+  # This prevents them from "going rogue."
+  AnalystAgent:
+    allowed_tools: []
+  CriticAgent:
+    allowed_tools: []
+  StrategistAgent:
+    allowed_tools: []

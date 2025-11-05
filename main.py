@@ -1,6 +1,8 @@
 # Create this file in the root: insightbridge/main.py
 
 import uvicorn
+from dotenv import load_dotenv
+load_dotenv()
 
 if __name__ == "__main__":
     uvicorn.run(
