@@ -1,0 +1,26 @@
+# --- Server ---
+fastapi
+uvicorn[standard]  # The server that runs FastAPI
+pydantic           # For data validation and schemas (TopicRequest, etc.)
+
+# --- LangChain Core & Agents ---
+langchain          # The core LangChain library
+langgraph          # The library for building the agent graph
+langchain-google-genai  # The *specific* connector for OpenAI models
+
+# --- Tools & Utilities ---
+python-dotenv      # For loading your .env file (API keys)
+PyYAML             # For loading the mcp/config.yml file
+
+# --- MCP Tool Adapters ---
+tavily-python      # Tool 1: Tavily Search
+arxiv              # Tool 2: ArXiv Search
+beautifulsoup4     # Tool 3: Webpage Scraper (HTML parser)
+requests           # Tool 3: Webpage Scraper (to fetch the page)
+gnews              # Tool 4: Google News Search
+
+# --- NEW PDF RAG TOOLS ---
+pymupdf            # The best PDF text extraction library
+chromadb           # The in-memory vector store
+langchain-community # For text splitters & vector store loaders
+

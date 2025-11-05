@@ -1,0 +1,2 @@
+streamlit          # The web framework for the UI
+requests           # The library used to send HTTP requests from the UI to the backend
