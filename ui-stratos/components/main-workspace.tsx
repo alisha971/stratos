@@ -39,12 +39,13 @@ export function MainWorkspace({ onOpenCanvas }: MainWorkspaceProps) {
             {/* Header Section */}
             <div className="text-center space-y-3">
               <h2 className="font-semibold text-foreground tracking-tight text-balance leading-tight text-4xl">
-                Understand, research and write about anything
+                Explore. Analyze. Ideate.
               </h2>
-              <p className="text-muted-foreground leading-relaxed text-sm">
-                Use AI-powered tools to explore topics, analyze documents, and generate insights
+              <p className="text-muted-foreground leading-relaxed text-sm max-w-xl mx-auto">
+                Go beyond search. Stratos connects the dots from news, papers, and the web to help you build new ideas.
               </p>
             </div>
+
 
             {/* Input Section */}
             <div className="space-y-6">
