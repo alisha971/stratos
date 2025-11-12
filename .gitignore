@@ -32,3 +32,40 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+
+
+# ======================================
+# FRONTEND (Next.js + Node)
+# ======================================
+
+# --- Dependencies ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Build output ---
+.next/
+out/
+.next/cache/
+
+# --- Tailwind & PostCSS build cache ---
+.postcss-cache/
+.tailwind-cache/
+
+# --- Local environment ---
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Lock & cache ---
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# --- Misc temporary files ---
+*.tmp
+*.temp
+*.tsbuildinfo
