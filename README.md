@@ -2,7 +2,7 @@
 
 Stratos is a full-stack, multi-agent research automation platform consisting of:
 
-### **🧠 Backend (FastAPI + LangChain)**
+### **🧠 Backend (FastAPI)**
 
 * Multi-agent pipeline (Planner → Researcher → Analyst → Critic → Strategist)
 * MCP Tool Governor (Tavily, GNews, ArXiv, WebReader, PDF-RAG)
